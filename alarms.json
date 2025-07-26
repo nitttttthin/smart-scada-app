@@ -1,0 +1,34 @@
+{
+  "alarms": {
+    "alarm1": {
+      "message": "Overheat in Zone 1",
+      "priority": "High",
+      "trigger_time": { ".sv": "timestamp" }
+    },
+    "alarm2": {
+      "message": "Pump failure detected",
+      "priority": "Medium",
+      "trigger_time": { ".sv": "timestamp" }
+    },
+    "alarm3": {
+      "message": "Filter blockage alert",
+      "priority": "Low",
+      "trigger_time": { ".sv": "timestamp" }
+    },
+    "alarm4": {
+      "message": "Scheduled maintenance",
+      "priority": "Low",
+      "trigger_time": { ".sv": "timestamp" }
+    },
+    "alarm5": {
+      "message": "Voltage drop below threshold",
+      "priority": "Medium",
+      "trigger_time": { ".sv": "timestamp" }
+    },
+    "alarm6": {
+      "message": "Emergency stop triggered",
+      "priority": "High",
+      "trigger_time": { ".sv": "timestamp" }
+    }
+  }
+}
